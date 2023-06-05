@@ -9,27 +9,24 @@ This project allows you to write and store entries in a coded form. Each entry i
 When viewing previous entries, the program deciphers the encoded text using the reverse process of the cipher, revealing the original content. You can also write new entries, which are encoded and stored in the diary file.
 
 Anyone opening the diary file itself will just find a jumble of characters.
+
 ## Getting Started
 
 ### Dependencies
 
-* C++ compiler (supporting C++11 or later)
-* Standard C++ library
+- C++ compiler (supporting C++11 or later)
+- Standard C++ library
 
-### Installing
+### Building
 
 1. Clone the repository or download the project files.
 
-2. Compile the source code using a C++ compiler. For example, using g++:
-
-
+2. Run `make build`
 
 ### Executing program
 
-1. Run the project.
-2. Follow the prompts to view previous entries or write a new entry.
+1. Run `make run`
 
 ## Author
-Audrey Whitney-Miller
-https://github.com/awhitneymiller
 
+[Audrey Whitney-Miller](https://github.com/awhitneymiller)
